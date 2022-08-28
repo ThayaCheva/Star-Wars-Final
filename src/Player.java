@@ -171,11 +171,7 @@ public class Player {
             if (input.isDown(Keys.DOWN)) {
                 this.setY_coordinate(currY + this.getMovementSpeed());
             }
-
-
         }
-
-
     }
 
     public Rectangle getBoundingBox() {
@@ -203,7 +199,7 @@ public class Player {
     }
 
     public void renderScore(Font font,Player player){
-        font.drawString(String.valueOf(player.getPlayer_score()),700,40);
+        font.drawString(String.valueOf(player.getPlayer_score()),650,40);
     }
 
     public int getPlayer_score() {
